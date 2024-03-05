@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <title>Encriptador de Texto </title>
+</head>
+<body>
+    <header> 
+
+            <h1> Bienvenido a Nuestro Encriptador de Texto</h1>
+       
+
+    </header>
+    <main class="main">
+        <section class="cajasdetexto">
+            <textarea id="texto-encriptado" class="campo-texto" placeholder="Texto a Encriptar"></textarea>
+            <textarea  id="campo-mensaje" class="campo-texto" placeholder="Texto Encriptado"></textarea>
+        </section>
+        <div class="btn">
+            <button onclick="btnEncriptar()">Encriptar</button>
+            <button onclick="btnDesencriptar()">Desencriptar</button>
+
+        </div>
+
+        <section class="campo-mensaje">
+            
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+    
+</body>
+
+<footer>
+    <p class="copyright"> &copy Derechos Reservados Taka Slytherin Developer 2024</p>
+</footer>
+</html>

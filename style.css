@@ -1,0 +1,93 @@
+body{
+    font-family: "Roboto Mono", monospace;
+
+}
+
+
+*{
+    font-family: "Roboto Mono", monospace;
+
+}
+
+header { 
+    background-color:  rgba(0,31,255,1);
+    
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.main{
+    background-color: rgba(0,31,255,1);
+}
+
+.campo-texto{
+    color: rgb(51, 50, 50);
+    font-size: 20px;
+    width: 500px;
+    height: 300px;
+    border: 2px solid rgb(22, 14, 12);
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, .7);
+    padding: 10px;
+    
+}
+.cajasdetexto{
+    padding: 50px 0;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;   
+    text-align: center;
+    padding: 35px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(97,9,121,1) 18%, rgba(0,31,255,1) 100%);
+
+    
+}
+
+.btn button {
+    box-shadow: 0 14px 16px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgb(97, 31, 97);
+    transition: 3s;
+    width: 250px;
+}
+
+
+
+
+button:hover {
+    background-color: rgb(224, 31, 31);
+    width: 170px;
+    cursor: pointer;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 5%;
+    color: rgb(203, 206, 206);
+    background: rgb(76,12,87);
+    background: linear-gradient(0deg, rgba(97,9,121,1) 29%, rgba(30,3,48,1) 85%);
+}
+
